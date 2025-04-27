@@ -31,4 +31,3 @@ if will_rain:
 
 
 # if id< 700 :bring umbrella
-# api_key = "ZUTUNPZPLMZLC8TRSMUJ5GLV"

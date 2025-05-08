@@ -1,4 +1,4 @@
-apikey = "c4d9047413a30032f5cec09a9b34ca12"
+apikey = TOKEN_API
 
 parameters = {
     "appid" : apikey,
@@ -9,7 +9,7 @@ parameters = {
 from twilio.rest import Client
 import requests
 account_sid = "ACe8d55f60e3f9cab57fe811adcf8aceb8"
-auth_token = "42409936761a9c7035fb761b4c343caa"
+auth_token = TOKEN_AUTH
 
 response = requests.get(url="https://api.openweathermap.org/data/2.5/forecast", params=parameters)
 data = response.json()

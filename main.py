@@ -8,7 +8,7 @@ parameters = {
 }
 from twilio.rest import Client
 import requests
-account_sid = "ACe8d55f60e3f9cab57fe811adcf8aceb8"
+account_sid = ACCOUNT
 auth_token = TOKEN_AUTH
 
 response = requests.get(url="https://api.openweathermap.org/data/2.5/forecast", params=parameters)

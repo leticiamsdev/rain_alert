@@ -1,4 +1,5 @@
-Rain Alert Bot
+☔Rain Alert Bot
+
 Este é um projeto em Python que verifica a previsão do tempo para as próximas horas utilizando a API do OpenWeatherMap e, caso haja previsão de chuva, envia um SMS por meio da API do Twilio alertando o usuário para levar um guarda-chuva.
 
 🔐 Segurança com Variáveis de Ambiente
